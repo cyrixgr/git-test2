@@ -1,6 +1,6 @@
-import { Injectable, NotFoundException } from '@nestjs/common';
-import { Product } from './product.model';
-import { productModule } from './product.module';
+import { Injectable, NotFoundException } from "@nestjs/common";
+import { Product } from "./product.model";
+import { productModule } from "./product.module";
 
 @Injectable()
 export class ProductService {
@@ -16,6 +16,7 @@ export class ProductService {
   }
 
   getAllProducts() {
+    //comment
     return [...this.products];
   }
 

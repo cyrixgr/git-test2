@@ -19,6 +19,7 @@ export class ProductController {
   @Get(":id")
   getProductById(@Param("id") prodId: string) {
     //comment
+    // next
     return this.productService.getProductById(prodId);
   }
 }
