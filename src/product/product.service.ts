@@ -9,7 +9,7 @@ export class ProductService {
   insertProduct(title: string) {
     const prodId = Math.random().toLocaleString();
     const newProduct = new Product(prodId, title);
-
+//comment here repo
     this.products.push(newProduct);
 
     return prodId;
