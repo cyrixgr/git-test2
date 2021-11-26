@@ -8,6 +8,7 @@ export class AppController {
   @Get()
   getHelloNewByJohnyLocal(): string {
     //comment
+    // conflict here?
     return this.appService.getHello();
   }
 }
