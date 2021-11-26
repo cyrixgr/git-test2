@@ -11,7 +11,7 @@ export class ProductService {
     const newProduct = new Product(prodId, title);
 //comment here repo
     this.products.push(newProduct);
-
+//comment here local
     return prodId;
   }
 
