@@ -7,6 +7,7 @@ export class AppController {
 
   @Get()
   getHelloNewByJohnyLocal(): string {
+    // conflict here?
     return this.appService.getHello();
   }
 }
